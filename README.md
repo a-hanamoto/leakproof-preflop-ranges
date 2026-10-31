@@ -98,9 +98,11 @@ A list of the heads-up decisions. Each has the line so far, the actions, and the
 | `raises` | Raises so far (0 = unopened, 1 = facing an open, 2 = facing a 3-bet, ...) |
 | `pot_bb`, `to_call_bb` | The pot and the amount to call, in bb |
 | `actions` | The actions. `raise 9bb` is a raise to 9bb in total |
-| `classes` | Values for each of the 169 hand classes (`AKs`, `AKo`, `22`, ...) |
+| `classes` | Values by hand class (`AKs`, `AKo`, `22`, ...): only the classes that can reach this decision (`reach` above 0). Hands that cannot get here are left out, so later decisions list fewer than 169 |
 | `reach` | How often the actor's own earlier actions bring this hand here (0 to 1) |
 | `strategy` | How often the hand takes each action here (in the order of `actions`; sums to 1) |
+
+Only decisions with at most two players in by choice are included. Where a third player could come in (the BB after an open and a BTN call, for example), only the fold is followed, so those spots are not in the file.
 
 ## 6max-100bb-norake
 
@@ -116,6 +118,7 @@ A list of the heads-up decisions. Each has the line so far, the actions, and the
 | Calling a 3-bet | only players who have already put money in (no cold calls of 3-bets) |
 | 4-bets | 2.1x the 3-bet in position, 2.65x out of position |
 | 5-bets and later | all-in only |
+| All-ins | also an option at every decision facing a raise (a shove instead of the 3-bet, 4-bet or call) |
 | Open shoves | none |
 
 Sizes are rounded to 0.5bb. Version 1.0.0 has 78 decisions.
