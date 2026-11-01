@@ -6,9 +6,9 @@ Preflop strategy for No-Limit Hold'em: opens, 3-bets, 4-bets and the responses t
 
 - License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 - Charts: every decision as a page at [playleakproof.com/preflop](https://playleakproof.com/preflop/) (Japanese: [/ja/preflop](https://playleakproof.com/ja/preflop/)). Pick whose range (the player at the decision, or the opponent's range that got there), the actions and the weights (this decision only, or with the player's earlier actions), and copy it as range text (`AA,AKs,A5s:0.25`, weights 0–1) for solvers and range tools.
-- Practice: [Range Dojo](https://playleakproof.com/dojo/) drills these ranges in the browser. Answer by swiping; it estimates how well you know each hand and spot, and asks most what you are likely to miss. Free, no sign-up.
+- Practice: [Leakproof Preflop Range Trainer](https://playleakproof.com/trainer/) drills these ranges in the browser. Answer by swiping; it estimates how well you know each hand and spot, and asks most what you are likely to miss. Free, no sign-up.
 
-<img src="images/range-dojo-en.png" width="560" alt="Range Dojo: a question (BB vs CO open, 7♣6♠) answered by swiping, and after a miss the answer with the range chart of that spot">
+<img src="images/range-trainer-en.png" width="560" alt="Range Trainer: a question (CO vs UTG open, A♣9♦) answered by swiping, and after a miss the answer with the range chart of that spot">
 
 ## Games
 
