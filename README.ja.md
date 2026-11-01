@@ -5,6 +5,7 @@
 ノーリミット・ホールデムのプリフロップ戦略です。オープン・3ベット・4ベットとそれへの対応を、169 のハンドクラスごとの頻度で収めています。毎日のポーカー問題 [Leakproof](https://playleakproof.com) の問題づくりのために、自前で計算しました。
 
 - ライセンス：[クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/deed.ja)
+- レンジ表：すべての判断を [playleakproof.com/ja/preflop](https://playleakproof.com/ja/preflop/) でページとして見られます（英語：[/preflop](https://playleakproof.com/preflop/)）。誰のレンジか（その判断の自分／そこまで来た相手）、アクション、重み（その判断だけ／それまでの自分のアクションも含める）を選んで、レンジのテキスト（`AA,AKs,A5s:0.25`、重み 0〜1）としてコピーできます。ソルバーやレンジのツールに貼り付けられます。
 - 練習：[Range Dojo（レンジ道場）](https://playleakproof.com/dojo/) で、このレンジをブラウザで覚えられます。スワイプで答えると、手と場面ごとの習熟度を推定し、間違えそうなものから出題します。無料で、登録は不要です。
 
 <img src="images/range-dojo-ja.png" width="560" alt="Range Dojo：スワイプで答える問題（BB vs HJ オープン、9♣6♠）と、間違えたときに出る正解とその場面のレンジ表">
