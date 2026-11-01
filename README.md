@@ -7,6 +7,8 @@ Preflop strategy for No-Limit Hold'em: opens, 3-bets, 4-bets and the responses t
 - License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 - Practice: [Range Dojo](https://playleakproof.com/dojo/) drills these ranges in the browser. Answer by swiping; it estimates how well you know each hand and spot, and asks most what you are likely to miss. Free, no sign-up.
 
+<img src="images/range-dojo-en.png" width="560" alt="Range Dojo: a question (BB vs CO open, 7♣6♠) answered by swiping, and after a miss the answer with the range chart of that spot">
+
 ## Games
 
 Each game (players, stacks, rake) has its own folder: `data/<game>/<version>/nodes.json`.
