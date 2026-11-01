@@ -7,6 +7,8 @@
 - ライセンス：[クリエイティブ・コモンズ 表示 4.0 国際（CC BY 4.0）](https://creativecommons.org/licenses/by/4.0/deed.ja)
 - 練習：[Range Dojo（レンジ道場）](https://playleakproof.com/dojo/) で、このレンジをブラウザで覚えられます。スワイプで答えると、手と場面ごとの習熟度を推定し、間違えそうなものから出題します。無料で、登録は不要です。
 
+<img src="images/range-dojo-ja.png" width="560" alt="Range Dojo：スワイプで答える問題（BB vs HJ オープン、9♣6♠）と、間違えたときに出る正解とその場面のレンジ表">
+
 ## ゲーム
 
 ゲームの条件（人数、スタック、レーキ）ごとに、`data/<ゲーム>/<版>/nodes.json` に置いています。
