@@ -5,6 +5,7 @@
 Preflop strategy for No-Limit Hold'em: opens, 3-bets, 4-bets and the responses to them, as frequencies for each of the 169 hand classes. We computed it ourselves to build the puzzles of [Leakproof](https://playleakproof.com), a daily poker puzzle.
 
 - License: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- Practice: [Range Dojo](https://playleakproof.com/dojo/) drills these ranges in the browser. Answer by swiping; it estimates how well you know each hand and spot, and asks most what you are likely to miss. Free, no sign-up.
 
 ## Games
 
